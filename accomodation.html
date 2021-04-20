@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<title>accomodation</title>
+</head>
+<body>
+<header>
+	<h1>Acommodation Form </h1>
+	<br>
+	<hr>
+</header>
+<section >
+	<form>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-12 form-group">
+				<label>Name</label>
+				<input type="text " name="name" class="form-control" required>
+				<label>First name</label>
+
+			</div>
+				<div class="col-lg-6 col-md-6 col-12 form-group">
+					<label><br></label>
+				<input type="text " name="name" class="form-control" required>
+				<label>Last name</label>
+			</div>
+		</div>
+		<div  class = "col-lg-6 col-md-6 col-12">
+		<div class="form-group">
+			<label>E-mail</label>
+			<input type="E-mail" name="E-mail" required class="form-control">
+		</div>
+		<div class="form-group">
+			<label>University/College name</label>
+			<input type="text" name="cname" class="form-control " required>
+		</div>
+		<div class="form-group">
+			<label>University/College Roll no</label>
+			<input type="text" name="Roll" class="form-control " required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label>University Address</label>
+		<input type="text" class="form-control" name="Address" placeholder = " Street Address" required >
+		 <br>
+
+		<input type="text" class="form-control" name="Address" placeholder = "Street Address line 2 " required >
+		
+	</div>
+	<div class="col-lg-6 col-md-6 col-12">
+		<label>Select Room type</label>
+	<select class="custom-select custom-select-sm ">
+      <option selected>Rooms</option>
+      <option value="volvo">Non AC single bed</option>
+      <option value="fiat">AC single Bed</option>
+      <option value="audi">AC Two Bed Room</option>
+    </select>
+	</div>
+	<br>
+		<div class="row">
+				<label for="example-datetime-local-input" class="col-2 col-form-label">Arrival Date &Time</label>
+				<div class="col-lg-6 col-md-6 col-12">
+      <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+  </div>
+</div><br>
+  <div class="form-group ">
+  	<label>Departure time</label>
+  	<div class="row">
+  		<input type="text" name="month" class="form-control col-lg-3 col-md-3 col-6 " placeholder="month">
+  		<input type="text" name="month" class="form-control col-lg-3 col-md-3 col-6 " placeholder="day">
+  		<input type="text" name="month" class="form-control col-lg-3 col-md-3 col-6 " placeholder="year">
+  	</div><br>
+  	<div class="form-group">
+  	<label>Free Pickup ? </label>
+  	 <div class="radio">
+      <label><input type="radio" name="optradio" checked>yes please </label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="optradio">No thanks</label>
+    </div>
+  </div>
+   <div class="row form-group">
+  	<div class="form col-lg-3 col-md-3 col-12">
+  		<label>Flight Number</label>
+  		<input type="text" name="number" class="form-control">
+  	</div>
+  </div>
+  <div class="form-group">
+  	<label>Special Request</label>
+  	 <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <div class="text-center">
+
+  <button type="submit" class="btn-lg btn-success btn-outline-dark "> Submit</button>
+</div> 
+
+	</div>
+	</div>
+	</form>
+</section>
+</body>
+</html>
