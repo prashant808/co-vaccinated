@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<title>shippment</title>
+</head>
+<body>
+	<h1>Shipment Form</h1>
+	<div class="container-fluid">
+		<form class="container-fluid" action="#">
+			<div class="form-group">
+				<label>University/college</label>
+				<input type="text" name="University" class="form-control" required>
+			</div>
+			<div class="row">
+				<div class="col-6 col-md-6 col-12 form-group">
+					<label>Contact Person</label>
+					<input type="text" name="Contact" class="form-control" placeholder="first" required>
+				</div>
+				<div class="col-6 col-md-6 col-12 form-group">
+					<label><br></label>
+					<input type="text" name="Contact" class="form-control" placeholder="Last" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12 form-group">
+					<label>E-mail</label>
+					<input type="E-mail" name="E-mail" class="form-control" placeholder="" required>
+				</div>
+				<div class="col-lg-6 col-md-6 col-12 form-group">
+					<label>Phone</label>
+					<input type="text" name="Phone" placeholder="#########" required class="form-control">
+				</div>
+
+			</div>
+			<div class="form-group">
+				<label>University/College Roll No.</label>
+				<input type="text" name="Roll" class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label>Your Address for shipping</label>
+				<input type="text" name="street" placeholder="Street Address" class="form-control" required><br>
+				<input type="text" name="Street" placeholder="Street address line 2 " class="form-control"><br>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-12">
+						<input type="text" name="city" placeholder="city" class="form-control" required>
+					</div>
+					<div class="col-lg-6 col-md-6 col-12">
+						<input type="text" name="Region" placeholder="Region" class="form-control" required>
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-12">
+						<input type="text" name="Postal" placeholder="Postal/zipcode" class="form-control" required>
+					</div>
+					<div class="col-lg-6 col-md-6 col-12">
+						 <select class="custom-select custom-select-sm ">
+      <option selected>Country</option>
+      <option value="volvo">India</option>
+      <option value="fiat">Nepal</option>
+      <option value="audi">Bangladesh</option>
+    </select>
+					</div>
+				</div>
+                  
+			</div><br>
+			<div class="row">
+				<label for="example-datetime-local-input" class="col-2 col-form-label">Delivery Time (from)</label>
+				<div class="col-lg-3 col-md-3 col-6">
+				
+      <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+  </div>
+			
+			<label for="example-datetime-local-input" class="col-2 col-form-label">Delivery Time (to)</label>
+				<div class="col-lg-3 col-md-3 col-6">
+				
+      <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+  </div></div><br>
+  <div class="form-group">
+  	<label>List your Belonging here</label>
+  	 <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <div class="text-center">
+
+  <button type="submit" class="btn-lg btn-success btn-outline-dark "> Submit</button></div>
+
+		</form>
+	</div>
+
+	
+</body>
+</html>
